@@ -37,12 +37,12 @@ class SQLserver {
 	public void ConnectSQL()
 	{
 		try {
-			  String url = "jdbc:postgresql://147.97.156.245/yuchen"; 
+			  String url = "jdbc:postgresql://147.97.156.245/yuchen.zhou"; 
 		      //String     url = "jdbc:postgresql://127.0.0.1/suh"; 
 		      //Connection con = DriverManager.getConnection(url, "postgres", ""); 
 		      Properties props = new Properties();
-		      props.setProperty("user","yuchen");
-		      props.setProperty("password","50440000");
+		      props.setProperty("user","yuchen.zhou");
+		      props.setProperty("password","xxxxxxxxx");
 		      props.setProperty("sslfactory", "org.postgresql.ssl.NonValidatingFactory");
 		      props.setProperty("ssl","true");   //for ssl
 		      ct = DriverManager.getConnection(url, props);
