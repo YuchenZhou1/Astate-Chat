@@ -17,5 +17,7 @@ Java Chat application with open group chat as well as peer to peer
 
 -To logout of the chat application, click the logout button.
 
+Since school sever block outside connection, it's unable to connect to the databse.
+
 Group Project
 Co writer - Luke Sample, Devin Minster
